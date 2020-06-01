@@ -14,6 +14,6 @@ uClient.close()
 #print header
 page_soup = soup(page_html,'html.parser')
 print(page_soup.h1.text)
-
+print(page_soup.p)
 #test
 print('test')
